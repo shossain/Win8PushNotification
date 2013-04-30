@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="WindowsAzure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-05.1.7">
+  <Role name="ScreenSavingServiceWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=screensavingsdb;AccountKey=xB1jDBE33hdLz4UCkYagQ6nNmjMvfU5z98vKVSiHW3Ys+aYhXlihCy8Y56HVTG6ywkooCt6NVJkC/HWcluZ4KQ==" />
+      <Setting name="MetroSecretKey" value="OvndfMMOF0Rc6UOs6nkRjSF2PT4uXq7H" />
+      <Setting name="MetroSid" value="ms-app://s-1-15-2-2575802222-3855453970-1958127869-4174191381-3294171190-2835413414-559075610" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=screensavingsdb;AccountKey=xB1jDBE33hdLz4UCkYagQ6nNmjMvfU5z98vKVSiHW3Ys+aYhXlihCy8Y56HVTG6ywkooCt6NVJkC/HWcluZ4KQ==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
